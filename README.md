@@ -10,7 +10,7 @@ Welcome to the **Eyuel Shop** web application! This is a simple e-commerce platf
 - **Update and Delete Products**: Users can modify product details or delete products.
 - **Responsive Design**: The application is built with a clean and user-friendly design that adapts to various screen sizes.
 
-## libraris Used
+## libraries Used
 
 - **Python**: Flask framework for building the web application.
 - **HTML/CSS**: Frontend for creating an interactive, user-friendly UI.
@@ -40,7 +40,7 @@ To run this project, you need Python 3.x installed on your machine. You also nee
 
 3. **File Structure**
 
-product manegment 
+product management 
 │
 ├── app.py                # Main Flask application
 ├── requirements.txt      # Project dependencies
