@@ -44,23 +44,24 @@ To run this project, you need Python 3.x installed on your machine. You also nee
 ```
 product management 
 │
-├── app.py                # Main Flask application
-├── requirements.txt      # Project dependencies
-├── users.json            # Store user data (JSON format)
-├── products.json         # Store product data (JSON format)
-├── templates/            # HTML files for each page
-│   ├── index.html        # Home page
-│   ├── register.html     # Registration page
-│   ├── login.html        # Login page
-│   ├── add_product.html  # Add product page
-│   ├── update_product.html # Update product page
-│   ├── logout.html       # Logout confirmation page
+├── app.py                
+├── requirements.txt      
+├── users.json            
+├── products.json         
+├── templates/            
+│   ├── index.html        
+│   ├── register.html     
+│   ├── login.html        
+│   ├── add_product.html  
+│   ├── update_product.html 
+│   ├── logout.html       
 │
-├── static/               # CSS and other static files
-│   └── styles.css        # Styles for the application
-└── README.md             # Project documentation
+├── static/               
+│   └── styles.css        
+└── README.md             
 ```
 **How It Works**
+```
 Routes
 /: Home page, only accessible for logged-in users.
 /register: Page for new users to sign up.
@@ -69,3 +70,4 @@ Routes
 /add_product: Allows logged-in users to add new products.
 /update_product/<product_id>: Allows logged-in users to update product details.
 /delete_product/<product_id>: Allows logged-in users to delete products.
+```
