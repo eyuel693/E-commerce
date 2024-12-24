@@ -4,11 +4,13 @@ Welcome to the **Eyuel Shop** web application! This is a simple e-commerce platf
 
 ## Features
 
+```
 - **User Registration**: New users can sign up using a username and password.
 - **Login and Logout**: Users can log in and out securely.
 - **Add Products**: Logged-in users can add new products to the store.
 - **Update and Delete Products**: Users can modify product details or delete products.
 - **Responsive Design**: The application is built with a clean and user-friendly design that adapts to various screen sizes.
+---
 
 ## libraries Used
 
@@ -39,7 +41,7 @@ To run this project, you need Python 3.x installed on your machine. You also nee
     ---
 
 3. **File Structure**
-
+---
 product management 
 │
 ├── app.py                # Main Flask application
@@ -57,7 +59,7 @@ product management
 ├── static/               # CSS and other static files
 │   └── styles.css        # Styles for the application
 └── README.md             # Project documentation
-
+---
 **How It Works**
 Routes
 /: Home page, only accessible for logged-in users.
