@@ -39,9 +39,9 @@ To run this project, you need Python 3.x installed on your machine. You also nee
     source venv/bin/activate 
 
 
----
-3. **File Structure**
 
+3. **File Structure**
+```
 product management 
 │
 ├── app.py                # Main Flask application
@@ -59,7 +59,7 @@ product management
 ├── static/               # CSS and other static files
 │   └── styles.css        # Styles for the application
 └── README.md             # Project documentation
----
+```
 **How It Works**
 Routes
 /: Home page, only accessible for logged-in users.
