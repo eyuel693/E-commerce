@@ -4,7 +4,7 @@ Welcome to the **Eyuel Shop** web application! This is a simple e-commerce platf
 
 ## Features
 
-```
+
 - **User Registration**: New users can sign up using a username and password.
 - **Login and Logout**: Users can log in and out securely.
 - **Add Products**: Logged-in users can add new products to the store.
@@ -18,7 +18,7 @@ Welcome to the **Eyuel Shop** web application! This is a simple e-commerce platf
 - **HTML/CSS**: Frontend for creating an interactive, user-friendly UI.
 - **JSON**: Data is stored locally in JSON files for simplicity and ease of access.
 - **Hashing**: Passwords are hashed using SHA-256 for basic security (Note: For production, a stronger hashing method is recommended).
-
+---
 ## Installation
 
 ### Prerequisites
@@ -34,14 +34,14 @@ To run this project, you need Python 3.x installed on your machine. You also nee
    cd eyuel-shop
 2. **Set up a virtual environment (optional but recommended):**
 
-    ---
+    ```bash
     python3 -m venv venv
     source venv/bin/activate 
 
-    ---
 
-3. **File Structure**
 ---
+3. **File Structure**
+
 product management 
 │
 ├── app.py                # Main Flask application
